@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:5/10/25
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -55,7 +55,7 @@ Publish the website in the LocalHost.
         </div>
         <hr class="line">
         <div class="footer-text">
-          <p class="left-text">J.HARSHINI</p>
+          <p class="left-text">J.HARSHINI (25011612)</p>
           <p class="right-text">SAVEETHA ENGINEERING COLLEGE</p>
         </div>
       </div>
@@ -136,6 +136,7 @@ body{
 ```
 
 ## OUTPUT:
+![alt text](<Screenshot (20).png>)
 
 
 ## RESULT:
