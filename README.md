@@ -31,7 +31,109 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<html>
+  <head>
+    <title>Book Cover</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body> 
+    <div class="background">
+      <div class="inner">
+        <div class="title">
+          <p>SEC Insights</p>
+        <hr>
+        <br><br>
+        <h1 align="center">Cloud computing</h1>
+        <br>
+        <p class="sub">cloud performance,cloud resourse,cloud security and cloud automation</p>
+      </div>
+      <div class="footer">
+        <div class="edition-section">
+          <h3 class="edition">MY EDITION</h3>
+          <img src="MY PIC (2).jpeg" class="image" alt="Author Photo">
+        </div>
+        <hr class="line">
+        <div class="footer-text">
+          <p class="left-text">J.HARSHINI</p>
+          <p class="right-text">SAVEETHA ENGINEERING COLLEGE</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
+style.css
 
+body{
+    display: flex;
+    justify-content: center;
+    color:violet
+}
+.background{
+    height: 600px;
+    width: 400;
+    margin-top: 25px;
+    background-image: url("background pic.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 9px;
+}
+.inner{
+    width:400px;
+    height: 600px;
+    border: 3px solid rgb(218,178,254)
+
+}
+.title{
+    margin: 4px
+}
+.sub{
+    font-size: large;
+}
+.footer{
+    margin: 4px;
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.edition-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.image{
+    width: 100px;
+    height: auto;
+
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.left-text{
+    text-align: left;
+    font-size: large;
+
+}
+.right-text{
+    text-align: right;
+    font-size: large;
+}
+.line{
+    width: 350px;
+}
+```
 
 ## OUTPUT:
 
